@@ -12,5 +12,10 @@ public class PlayDohLine
 	{
 		this.length = length;
 	}
+	public String toString()
+	{
+		String description = "I am a line and my length is " + length;
+		return description;
+	}
 
 }
